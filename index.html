@@ -12,20 +12,23 @@
   <link rel="stylesheet" href="css/style-home.css">
 </head>
 <body>
+ 
   <div class="principal">
-    <div class="resume">
-      <div>
-        Entradas: R$
-        <span class="incomes">0.00</span>
+    <h3>Cadastro Simplês</h3>
+    <hr>
+    <div class="entrada-saida">
+      <div class="title-container incomes-container">
+        Entradas
+        <h5>R$ <span class="incomes">0.00</span></h5>
       </div>
-      <div>
-        Saídas: R$
-        <span class="expenses">0.00</span>
+      <div class="title-container expenses-container">
+        Despesas
+        <h5>R$ <span class="expenses">0.00</span></h5>
       </div>
-      <div>
-        Total: R$
-        <span class="total">0.00</span>
-      </div>
+    </div>
+    <div class="value-total">
+      Total
+      <h5>R$ <span class="total">0.00</span></h5>
     </div>
     <div class="newItem">
       <div class="divDesc">
@@ -43,8 +46,8 @@
           <option>Saída</option>
         </select>
       </div>
-      <button id="btnNew">Incluir</button>
     </div>
+    <button id="btnNew">Incluir</button>
     <div class="divTable">
       <table>
         <thead>

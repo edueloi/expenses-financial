@@ -12,6 +12,19 @@
     justify-content: center;
     background-color: rgba(59, 130, 246, .5);
   }
+
+  h3 {
+    padding-top: 15px;
+    border-bottom: inset;
+    padding-bottom: 100%px;
+  }
+
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
   
   .principal {
     border-radius: 5px;
@@ -25,22 +38,36 @@
     margin-bottom: auto;
   }
   
-  .resume {
+  .entrada-saida {
     display: flex;
     padding: 10px 0;
-    gap: 40px;
+    gap: 20px;
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
   }
   
-  .resume > div {
+  .entrada-saida > div {
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 5px #ccc;
     border-radius: 10px;
     padding: 10px;
-    width: 150px;
+    width: 45%;
+  }
+
+  .value-total {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 94%;
+    align-items: center;
+  }
+
+  .total{
+    font-size: 18px;
   }
   
   .newItem {
@@ -57,17 +84,19 @@
     flex-direction: column;
   }
   
-  .newItem > button {
+   #btnNew {
+    margin-top: 15px;
     background-color: #2C73D2;
-    color: white;
-    border: none;
-    padding: 0 15px;
-    border-radius: 5px;
     cursor: pointer;
-    height: 34px;
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    width: 94%;
+    transition: background-color .2s ease;
   }
 
-  .newItem > button:hover{
+  #btnNew:hover{
     background-color: #0247a0;
   }
   
