@@ -107,7 +107,7 @@
    #btnNew {
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: #2C73D2;
+    background-color: #2bc7d4;
     cursor: pointer;
     border-radius: 12px;
     border: none;
@@ -118,7 +118,7 @@
   }
 
   #btnNew:hover{
-    background-color: #0247a0;
+    background-color: #36a8b3;
   }
   
   input, select {
@@ -157,7 +157,7 @@
   }
   
   .bxs-chevron-down-circle {
-    color: #D83121;
+    color: rgb(148, 38, 38);
   }
 
   .bx-trash {
